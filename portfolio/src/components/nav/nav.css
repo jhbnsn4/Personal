@@ -1,0 +1,25 @@
+.sidenav-main {
+    color: transparent;
+    background-color: black;
+    width: 5vw;
+    height: 100vh;
+    border-right:1px solid white;
+
+}
+.sidenav-main:hover {
+    color: white;
+    background-color: black;
+    width: 17vw;
+    height: 100vh;
+}
+ul {
+    cursor: pointer;
+    font-size: 3rem;
+    list-style-type: none;
+}
+.pinned {
+    color: white;
+    background-color: black;
+    width: 17vw;
+    height: 100vh;
+}
