@@ -14,6 +14,7 @@
     position: relative;
     color: white;
     font-size:4rem;
+    padding: .5rem;
     background-color: black;
     width: 15rem;
     height: 100vh;
@@ -27,7 +28,6 @@ ul {
 ul:hover {
     height: 100vh;
     cursor: pointer;
-
 }
 li {
     padding: 1rem;
@@ -40,7 +40,7 @@ li {
 }
 .nav-link:hover {
     text-decoration: none;
-    border-bottom: 1px solid  rgb(83, 102, 245);
+    border-bottom: 1px solid  rgb(41, 43, 55);
     display:inline-block;
 }
 .nav-link::after {
@@ -50,12 +50,12 @@ li {
     font-size: 4rem;
     text-align: right;
     margin-bottom: 5vh;
-    color: white;
+    color: yellow;
 }
 .nav-pin {
     text-align: right;
     margin-bottom: 5vh;
-    color: white;
+    color: yellow;
 }
 .pinned {
     font-size: 4rem;
