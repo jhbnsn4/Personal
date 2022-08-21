@@ -1,10 +1,12 @@
 import React from "react";
-import Nav from "../nav/nav";
+import "./homepage.css";
 
 export default function Homepage() {
   return (
-    <div>
-      <Nav />
+    <div className="homepage-grid">
+      <div>
+          <h1>Homepage</h1>
+      </div>
     </div>
   );
 }

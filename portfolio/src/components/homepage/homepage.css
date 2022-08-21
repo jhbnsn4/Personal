@@ -1,0 +1,12 @@
+h1 {
+    font-size: 2rem;
+    color: white;
+}
+.homepage-grid {
+    height: 100%;
+    display: grid;
+    background-color: black;
+    border-radius: 5px;
+    border-color: aqua;
+    grid-template-columns: 100px 500px;
+}

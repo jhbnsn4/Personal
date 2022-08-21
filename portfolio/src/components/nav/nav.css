@@ -1,25 +1,67 @@
 .sidenav-main {
+    text-align: left;
+    position: relative;
     color: transparent;
     background-color: black;
-    width: 5vw;
+    font-size: 0px;
+    width: 3rem;
     height: 100vh;
-    border-right:1px solid white;
+    border-right:1px solid rgb(80, 80, 80);;
+    transition-duration: .25s;
 
 }
 .sidenav-main:hover {
+    position: relative;
     color: white;
+    font-size:4rem;
     background-color: black;
-    width: 17vw;
+    width: 15rem;
     height: 100vh;
+    transition-duration: .33s;
 }
 ul {
+    height: 100vh; 
     cursor: pointer;
-    font-size: 3rem;
     list-style-type: none;
 }
-.pinned {
+ul:hover {
+    height: 100vh;
+    cursor: pointer;
+
+}
+li {
+    padding: 1rem;
+}
+.nav-link {
+    text-decoration: none;
     color: white;
-    background-color: black;
-    width: 17vw;
+    display:inline-block;
+
+}
+.nav-link:hover {
+    text-decoration: none;
+    border-bottom: 1px solid  rgb(83, 102, 245);
+    display:inline-block;
+}
+.nav-link::after {
+    text-decoration: none;    
+}
+.nav-pin:hover {
+    font-size: 4rem;
+    text-align: right;
+    margin-bottom: 5vh;
+    color: white;
+}
+.nav-pin {
+    text-align: right;
+    margin-bottom: 5vh;
+    color: white;
+}
+.pinned {
+    font-size: 4rem;
+    font-weight: 100;
+    padding: .5rem;
+    background: black;
+    width: 15rem;
     height: 100vh;
 }

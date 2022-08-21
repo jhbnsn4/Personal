@@ -1,0 +1,14 @@
+.main-container {
+    margin: .8rem;
+    display: grid;
+    grid-template-columns: 5rem 95vw;
+    height: 100vh;
+    background-color: black;
+}
+.main-container-pinned {
+    margin: .8rem;
+    display: grid;
+    grid-template-columns: 17rem 90vw;
+    height: 100vh;
+    background-color: black;
+}
