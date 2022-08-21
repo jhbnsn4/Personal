@@ -1,3 +1,41 @@
+.login-wrapper {
+    display: grid;
+    grid-template-columns: 50vw;
+    height: 50vh;
+
+}
 h1 {
     color: white;
 }
+.login-input {
+    padding:0px;
+    background-color: black;
+    height:5rem;
+    color: white;
+    font-size: 4rem;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid yellow;
+    width: 40vw;
+    animation-name: expand;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.login-input:focus{
+    outline: none;  
+}
+
+@keyframes expand {
+    from {
+      width: 0px;
+    }
+    90% {
+        width: 42vw;
+    }
+  
+    to {
+      width: 40vw;
+    }
+  }
